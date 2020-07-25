@@ -22,7 +22,7 @@ public class Level0 extends AppCompatActivity {
     public int numLeft = 0;
     Array array = new Array();
     public int count = 0;
-    Dialog dialog;
+    Dialog dialog; // init dialog window
     public int Num = 8;  // count max
     private SharedPreferences pref;  // save
 
