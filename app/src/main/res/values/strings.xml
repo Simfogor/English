@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">English</string>
+    <string name="start">Почати</string>
+    <string name="back">Назад</string>
+    <string name="bt_continue">Продовжити</string>
+    <string name="level0">Урок: 1</string>
+    <string name="level1">Урок: 2 </string>
+    <string name="level3">Урок: 3 </string>
+    <string name="dialog1">Well done! Hope you learned all the words! You’re getting better every day! \n \n
+Відмінно спрацьовано! Сподіваюсь, ви вивчили всі слова! Ти стаєш краще з кожним днем!</string>
+</resources>

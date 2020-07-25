@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialogfon"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="10dp"
+    android:background="@drawable/background1"
+    android:orientation="vertical"
+    android:scaleType="centerCrop">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/btnclose"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="end"
+            android:background="@drawable/button_stroke_black95_press_while"
+            android:gravity="center"
+            android:text="X"
+            android:textStyle="bold"></TextView>
+
+        <ImageView
+            android:id="@+id/previewimgon"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="25"
+            android:src="@drawable/unnamed34"></ImageView>
+
+        <TextView
+            android:id="@+id/textdiscription"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="40"
+            android:gravity="center"
+            android:text="@string/levelone"
+            android:textColor="@color/black95"
+            android:textSize="22sp"></TextView>
+
+        <Button
+            android:id="@+id/buttoncontinue"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="7"
+            android:background="@drawable/button_gamelevels"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="@string/bt_continue"
+            android:textColor="@color/white"
+            android:textSize="24sp"></Button>
+    </LinearLayout>
+</LinearLayout>
