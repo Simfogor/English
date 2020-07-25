@@ -24,7 +24,7 @@ public class Level0 extends AppCompatActivity {
     public int count = 0;
     Dialog dialog;
     public int Num = 8;
-    private SharedPreferences pref;
+    private SharedPreferences pref;  // save
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
