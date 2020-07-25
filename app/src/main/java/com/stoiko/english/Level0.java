@@ -67,7 +67,7 @@ public class Level0 extends AppCompatActivity {
 
 
 
-        //Конец диалога
+        // end dialog
         // create text level
         TextView text_level = findViewById(R.id.text_levels);
         text_level.setText(R.string.level0);
