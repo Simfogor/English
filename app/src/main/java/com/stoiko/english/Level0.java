@@ -35,7 +35,7 @@ public class Level0 extends AppCompatActivity {
 
         pref = getSharedPreferences("stat", MODE_PRIVATE);
 
-        /// Диалог
+        // Dialog
         dialog = new Dialog(this);
         dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
         dialog.setContentView(R.layout.enddialog1);
