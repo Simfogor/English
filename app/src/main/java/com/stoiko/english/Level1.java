@@ -97,7 +97,7 @@ public class Level1 extends AppCompatActivity {
         text_right.setText(array.texts1[numRight]);
 
 
-        // obrab true false
+        //  true or false
 
         img_left.setOnTouchListener(new View.OnTouchListener() {
             @Override
